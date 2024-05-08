@@ -12,7 +12,7 @@ while True:
             with open('todos.txt', 'w') as file:
                 file.writelines(todos)
 
-        case 'show' | 'display':
+        case 'show' | 'display' | 'view':
             with open('todos.txt', 'r') as file:
                 todos = file.readlines()
 
