@@ -12,5 +12,6 @@ window = Sg.Window("Supper File Compression ", layout=[[lblSelectFiles,filesSele
                                              [lblSelectDestinationFolder,destFolderInput,btnDestFolderSelector],
                                              [btnCompressNow]])
 window.read()
+
 window.Close()
 
