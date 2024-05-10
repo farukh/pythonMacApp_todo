@@ -1,3 +1,4 @@
+
 def get_todo():
     with open('todos.txt', 'r') as file:
         todos = file.readlines()
